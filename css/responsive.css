@@ -1,0 +1,124 @@
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+	.container {
+		width: 970px;
+	}
+	.working-with-us-area {
+		background-position: 550px 0px;
+	}
+	.feature-content {
+		top: 170px;
+	}
+
+	.single-blog-item .blog-text {
+		width: 269px;
+	}
+	.single-blog-item .blog-text h2 {
+		font-size: 15px;
+	}
+	.single-blog-item .blog-text p {
+		line-height: 23px;
+		margin-bottom: 14px;
+	}
+	.blog-meta .read-more {
+		display: none;
+	}
+	.latest-blog-items-wrapper .owl-nav {
+		left: -20px;
+	}
+	.footer-top-widget .subscribe-form input[type="email"] {
+		margin-bottom: 20px;
+	}
+	.footer-top-widget .subscribe-form input[type="submit"] {
+		width: 100%;
+		position: inherit;
+		text-align: left;
+	}
+
+
+
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+	.container {
+		width: 740px;
+	}
+
+	.cta-area .col-9 {
+		width: 100%;
+	}
+
+	.cta-area .col-3 {
+		width: 100%;
+		overflow: hidden;
+	}
+
+	.cta-text {
+		text-align: center;
+		display: block;
+		clear: both;
+		margin-bottom: 25px;
+	}
+
+	.cta-btn {
+		margin: auto;
+		text-align: center;
+	}
+
+	.feature-content .feature-icon i {
+		font-size: 25px;
+	}
+
+
+	.single-about-item .about-icon {
+		float: none;
+	}
+
+	.single-about-item {
+		text-align: center;
+	}
+
+		.working-with-us-area {
+		background-position: 486px 0px;
+	}
+
+
+}
+
+ 
+/* Extra small Device. */
+@media (max-width: 767px) {
+
+ 
+}
+ 
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+}
+
+
+/* retina query */
+@media only screen and (-webkit-min-device-pixel-ratio:2) and (max-width:991.98px),only screen and (min--moz-device-pixel-ratio:2) and (max-width:991.98px),only screen and (-o-min-device-pixel-ratio:2/1) and (max-width:991.98px),only screen and (min-device-pixel-ratio:2) and (max-width:991.98px),only screen and (min-resolution:192dpi) and (max-width:991.98px),only screen and (min-resolution:2dppx) and (max-width:991.98px){
+
+.logo .standard-logo{
+  display: none;
+}
+.logo .retina-logo{
+  display: inline-block;
+}
+
+}
+
+
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min--moz-device-pixel-ratio:2),only screen and (-o-min-device-pixel-ratio:2/1),only screen and (min-device-pixel-ratio:2),only screen and (min-resolution:192dpi),only screen and (min-resolution:2dppx){
+.logo .standard-logo{
+  display: none;
+}
+.logo .retina-logo{
+  display: inline-block;
+}
+
+}
